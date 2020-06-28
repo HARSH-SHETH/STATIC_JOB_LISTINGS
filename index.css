@@ -1,0 +1,154 @@
+body{
+  margin: 0px; 
+  padding: 0px; 
+  background: hsl(180, 52%, 96%);
+  font-family: 'Spartan', sans-serif;
+  font-size: 15px
+}
+#background{
+  background-image: url('./images/bg-header-desktop.svg');
+  background-repeat: no-repeat; 
+  background-size: cover;
+  width: 100%;
+  height: 150px;
+  background-color: hsl(180, 29%, 50%);
+}
+section{
+  margin-left: 10%;
+  width: 80%;
+}
+section:nth-of-type(2){
+  position: relative; 
+  top: 40px; 
+}
+.filter{
+  display: none;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  width: 80%; 
+  height: 50px;
+  position: absolute;
+  top: 125px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 8px hsl(180, 29%, 50%);
+}
+.filter > span{
+  cursor: pointer;
+  margin-right: 30px;
+  color: hsl(180, 29%, 50%);
+  font-weight: 700;
+}
+.filter > span:hover{
+  text-decoration: underline;
+}
+#filterTags div{
+  height: 30px;
+  width: auto;
+  display: flex; 
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 20px;
+  background: hsl(180, 52%, 96%);
+}
+#filterTags span{
+  padding: 9px 5px 5px 5px;
+  color: hsl(180, 29%, 50%);
+  font-weight: 700;
+}
+#filterTags img{
+  cursor: pointer;
+  background: hsl(180, 29%, 50%);
+  padding: 7px;
+  border-radius: 3px;
+}
+#filterTags img:hover{
+  background: hsl(180, 14%, 20%);
+}
+.jobLists{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%; 
+  height: 130px; 
+  background: white;
+  margin-top: 20px;
+/*  border-left: 4px solid hsl(180, 29%, 50%);*/
+  border-radius: 5px;
+  box-shadow: 1px 5px 8px hsl(180, 29%, 50%);
+}
+.flexbox{
+  display: flex; 
+  flex-direction: row;
+  align-items: center;
+}
+.emptySpace{
+  height: 100%; 
+  width: 30px;
+}
+.information{
+  margin-left: 20px;
+}
+.information p:nth-of-type(2){
+  color: hsl(180, 14%, 20%);
+  font-weight: 700;
+  margin: 10px 0;
+}
+.information p:nth-of-type(2):hover{
+  color: hsl(180, 29%, 50%);
+}
+.information p:last-child{
+  color: hsl(180, 8%, 52%);
+  margin-top: 8px;
+}
+.information p:last-child span{
+  margin-right: 15px;
+}
+.companyName{
+  color: hsl(180, 29%, 50%);
+  font-weight: 700;
+}
+.new{
+  background: hsl(180, 29%, 50%);
+  color: white;
+  border-radius: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0px 8px;
+  padding: 3px 8px;
+  padding-top: 5px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.featured{
+  background: hsl(180, 14%, 20%);
+  color: white;
+  border-radius: 13px;
+  text-transform: uppercase;
+  padding: 3px 8px; 
+  padding-top: 5px; 
+  font-size: 12px; 
+  font-weight: 700;
+}
+.jobTags{
+  margin-right: 30px;
+}
+.jobTags span{
+  cursor: pointer;
+  background: hsl(180, 52%, 96%);
+  padding: 8px;
+  margin-right: 5px;
+  color: hsl(180, 29%, 50%);
+  height: 30px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+.jobTags span:hover{
+  color: white;
+  background: hsl(180, 29%, 50%);
+}
+
+
+
